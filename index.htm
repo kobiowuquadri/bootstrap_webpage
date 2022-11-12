@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.2/examples/carousel/"
+    />
+    <link rel="shortcut icon" href="img/my-pics.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Web Page</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-md navbar-dark bg-primary"
+      aria-label="Fourth navbar example"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="img/my-pics.png" width="50px" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample04"
+          aria-controls="navbarsExample04"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Projects</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" target="_blank" href=" https://kobiowuquadri.github.io/My-Final-HTML-Project/">Project 1</a></li>
+                <li><a class="dropdown-item" target="_blank" href=" https://kobiowuquadri.github.io/3-projects-CSS/">Project 2</a></li>
+                <li>
+                  <a class="dropdown-item" target="_blank" href="https://kobiowuquadri.github.io/tribute-page/">Project 3</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/laptop.jpg" id="img1"
+            class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false" alt="">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Welcome to my Webpage.</h1>
+                <p>
+                  A Responsive and Captivating Webpage creacted by KOBIOWU
+                   QUADRI A., from <span style="color: orange; 
+                   font-weight:bold;">Orange Group</span> , Thanks all to 
+                   CapacityBay and Faculty HOWARD WAKAMA......
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" target="_blank" href="https://capacitybay.org/">Sign Up for CapacityBay</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/coding_vs_programming.jpeg"
+            class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false" alt="">
+              <rect width="100%" height="100%" fill="#777" />
+
+            <div class="container">
+              <div class="carousel-caption">
+                <p><a class="btn btn-lg btn-primary" href="https://www.freecodecamp.org/news/difference-between-coding-and-programming/" target="_blank">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+           <img src="img/student1.jpg"
+           class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false" alt="">
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Some Facts About Learning to code..</h1>
+                <p>
+                  Coding not only provides you with an excellent
+                  professional career, but also improves your cognitive
+                  skills, logical thinking, and problem-solving abilities,
+                  all of which are important in everyday life...
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" target="_blank" href="https://gocoderz.com/blog/coding-trivia-for-teachers-the-facts/">Learn More..</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+        ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/my-pics.png"
+            class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            
+            alt="">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+          
+
+            <h2 class="fw-normal">Kobiowu Quadri A.</h2>
+            <p>
+              Student at Capacitybay <br>
+I am a web developer, I love Coding and doing research about Technology.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="https://kobiowuquadri.github.io/My-Final-HTML-Project/" target="_blank">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+          <img src="img/my-pics.png"
+          class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false" alt="">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+             
+      
+
+            <h2 class="fw-normal">Kobiowu Quadri A.</h2>
+            <p>
+              Student at Capacitybay <br>
+I am a web developer, I love Coding and doing research about Technology.
+            </p>
+            <p>
+              <a class="btn btn-secondary" target="_blank"
+              href="https://kobiowuquadri.github.io/My-Final-HTML-Project/">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+           <img src="img/my-pics.png"class="bd-placeholder-img rounded-circle"
+           width="140"
+           height="140"
+           xmlns="http://www.w3.org/2000/svg"
+           role="img"
+           aria-label="Placeholder: 140x140"
+           preserveAspectRatio="xMidYMid slice"
+           focusable="false"
+            alt="">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+              
+
+            <h2 class="fw-normal">Kobiowu Quadri A.</h2>
+            <p>
+              Student at Capacitybay <br>
+              I am a web developer, I love Coding and doing research about Technology.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="https://kobiowuquadri.github.io/My-Final-HTML-Project/">View details </a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              How Does Coding Work?
+            </h2>
+            <p class="lead">
+              Computer programming languages, developed through a series of numerical or alphabetic codes, 
+              instruct machines to complete specific actions. Computer coding functions much like a manual.
+              A programmer or developer writes instructions describing the information and tasks needed to 
+              create a visual or to perform a task.  <br>
+              Computers scan extensive coded manuals very quickly, 
+              executing the tasks that create and run a successful website or application. 
+              Displaying an image or section of text, changing font styles, and opening emails all require 
+              instructions included in the coded manual.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/laptop.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="400"
+              height="400"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+             alt="">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+              
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Types of Programming Languages
+              <span class="text-muted">
+                Binary code comprises a series of zeros and ones, used to communicate instructions.
+              </span>
+            </h2>
+            <p class="lead">
+              This code is a low-level programming language. Each digit in a coded sequence
+                connects to a switch in your computer. Each switch connects to an action,
+                 and together thousands of switches operate a device.
+              Another featurette? Of course. More placeholder content here to
+              give you an idea of how this layout would work with some actual
+              real-world content in place.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+           <img src="img/coding_vs_programming.jpeg"
+           class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false" alt="">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+              
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              What is Coding Used For?
+              <span class="text-muted">
+                Developers use a variety of programming languages to build websites and applications. 
+                
+
+
+              </span>
+            </h2>
+            <p class="lead">
+              Front-end developers typically use HTML, CSS, or JavaScript code to create website layouts and design functions. <br>
+              Websites with user accounts, like Facebook, Instagram, or LinkedIn, require back-end developers to write computer code 
+              that connects websites to databases. Back-end developers often write code using languages such as SQL, Java, and Python.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/student1.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false" alt="">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+              
+         
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>
+          &copy; 2022 By Kobiowu Quadri A., Inc. &middot;
+          <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
